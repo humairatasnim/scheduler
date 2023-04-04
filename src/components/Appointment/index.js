@@ -111,7 +111,7 @@ export default function Appointment(props) {
       )}
       {mode === ERROR_SAVE && (
         <Error
-          message={'There was an error when booking the appointment. Please try again.'}
+          message={'There was an error when saving the appointment. Please try again.'}
           onClose={back}
         />
       )}
