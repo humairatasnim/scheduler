@@ -17,9 +17,9 @@ export default function Form(props) {
     props.onCancel();
   };
 
-  const submit = () => {
-    props.onSave(student, interviewer);
-  };
+  // const submit = () => {
+  //   props.onSave(student, interviewer);
+  // };
 
   const validate = () => {
     if (student === "") {
